@@ -4,9 +4,9 @@
  This code was created to extract relevant features from functional connectivity data, in order to predict cognitive impairments in stroke patients. 
 
 
-Instructions:
+Instructions for the main scripts:
 
-1. Use the "vecotize_data" script to vectorize the matrices. The script will save the vectorized data (named "vec_fc") in the current working directory. 
+1. Use the "vectorize_data" script to vectorize the matrices. The script will save the vectorized data (named "vec_fc") in the current working directory. 
 
 2. Run the compute_* scripts in order to perform dimensionality reduction on "vec_fc", with the desired feature extraction technique. These scripts will save the extracted features (with the associated mapping weights, reconstruction error and standard error) in a file named x_output (where x is the name of the chosen feature extraction techinque).
 
